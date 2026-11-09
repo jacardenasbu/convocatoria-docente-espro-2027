@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Convocatorias Docentes ESPRO 2027 | Policía Nacional</title>
+<style>
+  :root {
+    --navy: #0a2540;
+    --gold: #c5a059;
+    --green: #1b5e20;
+    --bg: #f5f6f8;
+    --card: #fff;
+    --border: #dde1e6;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+    background: var(--bg);
+    color: #1a1a1a;
+    line-height: 1.55;
+  }
+  header {
+    background: #0a2540 url('edificio.jpg') center 30% / cover no-repeat;
+    color: white;
+    position: relative;
+    padding: 2.5rem 1.2rem 2rem;
+    text-align: center;
+  }
+  header::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to bottom, rgba(10,37,64,0.55), rgba(10,37,64,0.88));
+  }
+  .header-inner {
+    position: relative;
+    z-index: 1;
+    max-width: 900px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+  }
+  .logos {
+    display: flex;
+    gap: 1rem;
+  }
+  .logos img {
+    width: 85px;
+    height: 85px;
+    border-radius: 50%;
+    background: white;
+    padding: 3px;
+    object-fit: cover;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  }
+  header h1 {
+    font-size: 1.7rem;
+    font-weight: 600;
+    margin: 0.3rem 0;
+  }
+  header p { opacity: 0.9; font-size: 0.95rem; }
+  .container { max-width: 1000px; margin: 0 auto; padding: 2rem 1.2rem; }
+  .alert {
+    background: #fff8e6;
+    border-left: 4px solid var(--gold);
+    padding: 1rem 1.2rem;
+    margin-bottom: 2rem;
+    font-size: 0.95rem;
+  }
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.4rem;
+  }
+  .card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+  }
+  .card-header {
+    background: var(--navy);
+    color: white;
+    padding: 1rem 1.2rem;
+  }
+  .card-header h2 {
+    font-size: 1.15rem;
+    font-weight: 600;
+    margin-bottom: 0.2rem;
+  }
+  .card-header span {
+    font-size: 0.85rem;
+    opacity: 0.85;
+  }
+  .card-body { padding: 1.2rem; }
+  .card-body ul {
+    margin: 0.6rem 0 1rem 1.1rem;
+    font-size: 0.92rem;
+  }
+  .card-body li { margin-bottom: 0.3rem; }
+  .btn {
+    display: inline-block;
+    background: var(--gold);
+    color: #111;
+    padding: 0.7rem 1.4rem;
+    text-decoration: none;
+    font-weight: 600;
+    border-radius: 3px;
+    font-size: 0.95rem;
+  }
+  .btn:hover { background: #d4af37; }
+  footer {
+    background: var(--navy);
+    color: white;
+    text-align: center;
+    padding: 1.5rem;
+    font-size: 0.9rem;
+    margin-top: 1rem;
+  }
+  footer strong { color: var(--gold); }
+  @media (max-width: 600px) {
+    header h1 { font-size: 1.4rem; }
+    .logos img { width: 70px; height: 70px; }
+  }
+</style>
+</head>
+<body>
+<div style="background:#061d31;color:white;text-align:center;padding:10px 16px;font:14px Arial,sans-serif">Policía Nacional de Colombia · Dirección de Educación Policial</div>
+
+<header>
+  <div class="header-inner">
+    <div class="logos">
+      <img src="logo_policia.jpg" alt="Policía Nacional de Colombia">
+      <img src="logo_espro.jpg" alt="ESPRO">
+    </div>
+    <div>
+      <h1>Convocatorias Docentes<br>Hora Cátedra 2027</h1>
+      <p>ESPRO Sede Universitaria<br>Escuela de Policía en Protección y Servicios Especiales<br>“Sargento Mayor Luis Alberto Torres Huertas”</p>
+    </div>
+  </div>
+</header>
+
+<div class="container">
+
+  <div class="alert">
+    <strong>Importante:</strong> Todos los procesos de selección y vinculación docente son oficiales, transparentes y <strong>completamente gratuitos</strong>. Cualquier cobro o exigencia de dinero constituye estafa y debe ser reportado de inmediato.
+  </div>
+
+  <div class="cards">
+
+    <!-- Convocatoria 01 - Tecnología DDHH -->
+    <div class="card">
+      <div class="card-header">
+        <h2>Convocatoria 01-2027</h2>
+        <span>Tecnología en Derechos Humanos y Gestión Comunitaria</span>
+      </div>
+      <div class="card-body">
+        <p><strong>Modalidad:</strong> 100% Virtual</p>
+        <p><strong>Inscripciones:</strong> 09 al 23 de noviembre de 2026</p>
+        <ul>
+          <li>Docente Hora Cátedra</li>
+          <li>1 asignatura por cohorte</li>
+          <li>Proceso oficial y gratuito</li>
+        </ul>
+        <a href="convocatoria_01_tecnologia.html" class="btn">Ver convocatoria e inscribirse</a>
+      </div>
+    </div>
+
+    <!-- Convocatoria 02 - Técnico -->
+    <div class="card">
+      <div class="card-header">
+        <h2>Convocatoria 02-2027</h2>
+        <span>Técnico Profesional en Protección a Personas e Instalaciones</span>
+      </div>
+      <div class="card-body">
+        <p><strong>Cohortes:</strong> XIII y XIV</p>
+        <p><strong>Modalidad:</strong> Presencial</p>
+        <p><strong>Inscripciones:</strong> 09 al 23 de noviembre de 2026 (hasta 11:59 p.m.)</p>
+        <ul>
+          <li>Docente Hora Cátedra</li>
+          <li>1 asignatura por periodo</li>
+          <li>Proceso oficial y gratuito</li>
+        </ul>
+        <a href="convocatoria_02_tecnico.html" class="btn">Ver convocatoria e inscribirse</a>
+      </div>
+    </div>
+
+    <!-- Convocatoria 03 - Especialización -->
+    <div class="card">
+      <div class="card-header">
+        <h2>Convocatoria 03-2027</h2>
+        <span>Especialización Técnica Profesional en Estudios de Niveles de Riesgo</span>
+      </div>
+      <div class="card-body">
+        <p><strong>Cohortes:</strong> XIV y XV</p>
+        <p><strong>Modalidad:</strong> A distancia (con presencialidad según programación)</p>
+        <p><strong>Inscripciones:</strong> 09 al 23 de noviembre de 2026 (hasta 11:59 p.m.)</p>
+        <ul>
+          <li>Docente Hora Cátedra</li>
+          <li>1 asignatura por periodo</li>
+          <li>Proceso oficial y gratuito</li>
+        </ul>
+        <a href="convocatoria_03_especializacion.html" class="btn">Ver convocatoria e inscribirse</a>
+      </div>
+    </div>
+
+  </div>
+
+  <div style="margin-top:2.5rem; text-align:center; font-size:0.95rem; color:#444;">
+    <p><strong>Contacto Institucional</strong></p>
+    <p>ST. Jennifer Eneyda Pinilla Ortiz · 314 816 6221 · espro.areca@policia.gov.co</p>
+    <p>IT. Luis Alberto Torres Prado · 312 215 6184 · espro.depro@policia.gov.co</p>
+    <p style="margin-top:0.5rem;">MY. Alex Didi Rojas Sánchez · Director ESPRO (E)</p>
+  </div>
+
+</div>
+
+<footer>
+  <p><strong>Escuela de Policía en Protección y Servicios Especiales</strong></p>
+  <p>“Sargento Mayor Luis Alberto Torres Huertas” · ESPRO Sede Universitaria</p>
+  <p style="margin-top:0.4rem; opacity:0.75;">Convocatorias Docentes Hora Cátedra 2027 · Proceso Oficial y Gratuito</p>
+</footer>
+
+</body>
+</html>
